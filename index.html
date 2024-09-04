@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=css/bootstrap.css>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+    </style>
+</head>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="image/Icon.png" alt="Icon" width="64" height="64">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portfolio" style="color: white; font-family: Play, sans-serif;
+                font-weight: 700; font-style: normal;">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="links.html" style="color: white; font-family: Play, sans-serif; font-weight: 700">Links</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white; font-family: Play, sans-serif; font-weight: 700">About</a>
+              </li>
+              <!--<li class="nav-item">
+                <audio controls autoplay src="Sounds/Ambience.mp3">
+              </li>-->
+            </ul>
+            <form class="d-flex">
+                <li class="nav-item">
+                    <a href="contact.html"><button type="button"  class="btn btn-outline-light" style="font-family: Play, sans-serif; font-weight: 700;">Contact</button></a>
+                  </li>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+<body style="background-color: black;">
+
+
+  <div class="card bg-dark text-white">
+    <img src="image/Office.jpg" class="card-img" alt="Stony Beach"/>
+    <div class="card-img-overlay my-5">
+      <h1 class="card-text my-3 mx-5">
+        Silvestre Tavares
+      </h1>
+      <h4 class="card-text my-3 mx-5">
+        Game Designer / Environment Artist
+      </h4>
+      <h1 class="card-text my-3 mx-5">
+        <a href="contact.html"><button type="button"  class="btn btn-outline-light btn-lg hello" style="font-family: Play, sans-serif; font-weight: 700;">Contact</button></a>
+        <a href="#portfolio"><button type="button"  class="btn btn-outline-light btn-lg hello" style="font-family: Play, sans-serif; font-weight: 700;">Portfolio</button></a>
+      </h1>
+    </div>
+  </div>
+
+
+  <div class="container my-5" style="color: black;" id="portfolio">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-white bg-dark mb-3 project-selection">
+          <a href="Games.html" class="pe-auto">
+          <img src="image/GameDesignIcon.JPG" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title text-decoration-none">Video Games</h5>
+            <p class="card-text text-decoration-none">Video Games I developed</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white bg-dark mb-3 project-selection">
+          <a href="environmentpage.html" class="pe-auto">
+          <img src="image/OfficeSmall.JPG" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Environment Art</h5>
+            <p class="card-text">Things I 3D Modeled and Rendered</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white bg-dark mb-3 project-selection">
+          <a href="schoolprojects.html">
+          <img src="image/SchoolProjects.JPG" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">School Projects</h5>
+            <p class="card-text">Projects I have worked on during my time in university</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
